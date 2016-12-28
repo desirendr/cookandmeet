@@ -1,0 +1,350 @@
+*{
+	margin: auto;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: 'ecoicon';
+	src:url('../fonts/ecoicons/ecoicon.eot');
+	src:url('../fonts/ecoicons/ecoicon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ecoicons/ecoicon.woff') format('woff'),
+		url('../fonts/ecoicons/ecoicon.ttf') format('truetype'),
+		url('../fonts/ecoicons/ecoicon.svg#ecoicon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.menumobile,.map-mobile,.mesicones-mobile,.marche4 /* rajouter avec des virgules les éléments qu'on veut voir disparaitre */{
+    display:none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300,700);
+
+.container{
+	width: 100%;
+}
+
+body{
+	background-color: white;
+    width: 100%;
+}
+
+input{
+    border:0px;
+}
+
+/*DIFFERENTS TITRES*/
+
+  h1{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.40);
+   	padding-top: 38%;
+	font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+ h2{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 1px;
+   	padding-top: 8%;
+	font-family: 'Comfortaa', cursive;
+    padding-bottom: 20px;
+}
+
+h3{
+	color: white;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'Comfortaa', cursive;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+
+h4{
+	color: white;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: 'Comfortaa', cursive;
+	letter-spacing: 1px;
+
+}
+
+ /* FIN DIFFERENTS TITRES*/
+
+ /*DIFFERENTES PARTIES*/
+
+#part-1{
+	background: url(../img/c&m.jpg);
+	-moz-background-size: cover;
+	background-size: cover;
+	height: 782px;
+	background-attachment: fixed;
+}
+
+.part-2{
+	background-color:#ff445b;
+	height: 720px;
+}
+
+.part-3{
+    background-image: url('../img/fond3.jpg');
+    moz-background-size: cover;
+	background-size: cover;
+	height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+
+.part-4{
+	background-color:white;
+	height: 820px;
+}
+
+ /*FIN DIFFERENTES PARTIES*/
+/*LOGO*/
+
+#logo{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+ /*FIN LOGO*/
+
+  /*MENU*/
+
+ul#menu a{
+    text-decoration: none;
+}
+
+#menu{
+	float: right;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    padding-top: 26px;
+}
+
+
+
+ /*FIN MENU*/
+
+ /*TEXT HEADER*/ 
+
+ .text-centrer{
+    background-image: url('../img/c&m.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    background-attachment: fixed;
+    text-shadow: 0px 0px 2px rgba(48, 48, 48, 1);
+    height: 100%;
+} 
+
+.scroll-down-container{
+	width: 100%;
+	margin-top: 10%;
+	text-align: center;
+}
+.scroll-down{
+	z-index: 4;
+	width: 40px;
+	padding: 7px 0;
+	border-radius: 80%;
+	outline: none;
+}
+.scroll-down img{
+	width: 40px;
+	transform:rotate(90deg);
+}
+
+
+ /* FIN TEXT HEADER*/ 
+
+
+ /*CHAMPS DE RECHERCHE*/
+
+#searchbox 
+{           
+    text-align: center;
+    margin-top: 8%;
+}
+
+#search {
+    padding: 7px 10px;
+    height: 38px;
+    width: 500px;
+    font-family: 'questral', sans-serif; 
+    font-size: 0.9em;
+    font-weight: 100;
+
+}
+
+#submit
+{       
+    background-color: #ff445b; 
+    height: 52.5px;
+    width: 130px;
+    cursor: pointer;
+    color: white;
+    font-family: 'questral', sans-serif; 
+    font-size: 1em;   
+    font-weight: 100;
+    margin-left: -4px;
+
+}
+
+#submit:hover {       
+    background-color: white;
+    color: #ff445b;
+        transition:0.8s;
+
+}  
+
+ /*FIN CHAMPS DE RECHERCHE*/
+
+  /*DEBUT ICONES*/
+
+.hi-icon-wrap {
+	text-align: center;
+	margin: 0 auto;
+	padding: 2em 0 3em;
+}
+
+.hi-icon {
+	display: inline-block;
+	font-size: 0px;
+	cursor: pointer;
+	margin: 15px 8px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	color: #ff445b;
+}
+
+.hi-icon:after {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	box-sizing: content-box;
+}
+
+.hi-icon:before {
+	font-family: 'ecoicon';
+	speak: none;
+	font-size: 30px;
+	line-height: 100px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Effect 1 */
+.hi-icon-effect-1 .hi-icon {
+	background: rgba(255,255,255,1);
+	-webkit-transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s;
+	transition: background 0.2s, color 0.2s;
+}
+
+.hi-icon-effect-1 .hi-icon:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+	    transition:0.8s;
+}
+
+/* Effect 1a */
+.hi-icon-effect-1a .hi-icon:hover {
+	background:rgba(255,255,255,0.3);
+	color:white;
+	    transition:0.8s;
+}
+
+
+
+.bloc-1{
+	display: inline-block;
+	padding-left: 5.5%;
+    padding-right: 5.5%;
+    width: 150px;
+}
+
+.bloc-2{
+	display: inline-block;
+	padding-left: 5.5%;
+    padding-right: 5.5%;
+    width: 150px;
+}
+
+.bloc-3{
+	display: inline-block;
+	padding-left: 5.5%;
+    padding-right: 5.5%;
+    width: 150px; 
+}
+
+.mes-icones{
+	padding-top: 20px;
+}
+
+.info{
+	margin-top: 15px;
+    line-height: 25px;
+    font-size: 0.9em;
+    color: white;
+}
+
+.bouton-table{
+   border: 1px solid white;
+	color: white;
+	padding: 20px 60px;
+    font-family: 'questrial', sans-serif;
+    cursor: pointer;
+}
+
+.bouton-table:hover{
+    background-color: white;
+    color: #ff445b;
+        transition:0.8s;
+}
+
+#bouton-table{
+    text-align: center;
+    margin-top: 7%;
+}
+
+ /*FIN ICONES*/
+
+ .part1-marche{
+    background-color: #F6F6F6;
+    height: 960px;
+}

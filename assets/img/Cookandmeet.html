@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///Users/Mathieu/Desktop/cookandmeet-v2/marseille.html# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Cookandmeet</title>
+
+<link rel="icon" type="image/png" href="file:///Users/Mathieu/Desktop/cookandmeet-v2/img/logo2.png">
+<link href="./Cookandmeet_files/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./Cookandmeet_files/font-awesome.min.css">
+<link rel="stylesheet" href="./Cookandmeet_files/font-awesome.css">
+<link href="./Cookandmeet_files/drawer.min.css" rel="stylesheet" type="text/css">
+<link href="./Cookandmeet_files/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./Cookandmeet_files/jquery-ui.css">
+<link href="./Cookandmeet_files/moyenstyle.css" rel="stylesheet" type="text/css" media="only screen and (min-width:750px) and (max-width:950px)">
+<link href="./Cookandmeet_files/petitstyle.css" rel="stylesheet" type="text/css" media="only screen and (min-width:300px) and (max-width:750px)">
+
+
+</head>
+
+<body>
+		
+		<div class="container">
+
+			<div class="popup" data-popup="popup-1">
+   				
+   					<div class="popup-inner">
+
+    					<h2 id="connex">CONNEXION</h2>
+
+        				<div id="formuuu">
+							<form action="file:///Users/Mathieu/Desktop/cookandmeet-v2/marseille.html?module=enseignant&amp;action=connexion" method="post">
+
+								<input id="ins" type="email" name="email" placeholder=" Mail" required=""><br>
+								<input id="ins" type="password" name="password" placeholder=" Password" required=""><br>
+								<input id="formuu" type="submit" value="SE CONNECTER"><br> 
+			
+								<div id="no-inscritption">
+									<a href="" id="inscri" class="non-inscrit">Pas encore inscrit ?</a>
+									<a href="" id="oublie" class="non-inscrit"> Mot de passe oublié ?</a>
+								</div>
+
+							</form>
+
+ 						</div>
+
+       						<a class="popup-close" data-popup-close="popup-1" href="./Cookandmeet_files/Cookandmeet.html">x</a>
+   				 	</div>
+
+				</div>
+
+				<nav class="menumobile"> <!--debut menu mobile-->
+
+    			<ul class="active">
+    				<li><a href="file:///Users/Mathieu/Desktop/cookandmeet-v2/index.html" id="boutoninscription-mobile">Accueil</a></li>
+        			<li><a class="btn" data-popup-open="popup-1" href="./Cookandmeet_files/Cookandmeet.html" id="boutonconnexion-mobile">Connexion</a></li>
+        			<li><a href="file:///Users/Mathieu/Desktop/cookandmeet-v2/inscription.html" id="boutoninscription-mobile">Inscrivez-vous</a></li>
+        			<li><a href="./Cookandmeet_files/Cookandmeet.html" id="boutondevenirhote-mobile">Devenir Hôte</a></li>
+
+    			</ul>
+
+    			<a class="toggle-nav" href="./Cookandmeet_files/Cookandmeet.html">☰</a>
+
+			</nav> <!--fin menu mobile-->
+
+			<div class="nav">
+
+				<a href="file:///Users/Mathieu/Desktop/cookandmeet-v2/index.html"><img id="logo" src="./Cookandmeet_files/logo.png" alt="logo"></a>
+
+				<ul id="menu">
+
+				<li><a class="btn" data-popup-open="popup-1" href="./Cookandmeet_files/Cookandmeet.html" id="boutonconnexion">Connexion</a></li>
+				<li><a href="file:///Users/Mathieu/Desktop/cookandmeet-v2/inscription.html" id="boutoninscription">Inscrivez-vous</a></li>
+				<li><a href="./Cookandmeet_files/Cookandmeet.html" id="boutondevenirhote">Devenez Chef</a></li>
+	    	</ul>
+
+	    	</div>
+		
+
+
+		<div id="map-paris">
+		<iframe src="./Cookandmeet_files/embed.html" width="100%" height="1000" frameborder="0" style="border:0, float:left" allowfullscreen=""></iframe>
+		</div>
+
+
+
+
+		
+			<div>
+			<div class="page-recherche">
+			<div class="formulaire-recherche">
+				<form>
+				<fieldset>
+				<select id="ville" name="field4">
+				<optgroup label="Ville">
+				<option value="lille" href="marseille.html">Marseille</option>
+				  <option value="bordeaux">Bordeaux</option>
+				   <option value="lille">Lille</option>
+				  <option value="lyon">Lyon</option>
+				  <option value="marseille">Marseille</option>
+				  <option value="montpellier">Montpellier</option>
+				  <option value="nantes">Nantes</option>
+				  <option value="nice">Nice</option>
+				  <option value="paris">Paris</option>
+				  <option value="rennes">Rennes</option>
+				  <option value="toulon">Toulon</option>
+				  <option value="strasbourg">Strasbourg</option>
+				</optgroup>
+				</select>    
+				<input type="date" name="field1" placeholder="Date">
+
+				<div name="field1" id="slider-range" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 34.4%; width: 41%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 34.4%;"></span><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 75.4%;"></span></div>
+
+				<select id="ville" name="field4">
+				<optgroup label="Type de Repas">
+				<option value="Brunch">Brunch</option>s
+				  <option value="diner">Diner</option>
+				  <option value="pic-nique">Pique-nique</option>
+				  <option value="Apéro">Apéro</option>
+				</optgroup>
+				</select>    
+				<select id="ville" name="field4">
+				<optgroup label="Type de Cuisiine">
+				<option value="Français">Français</option>s
+				  <option value="Equatorien">Equatorien</option>
+				  <option value="Japonais">Japonais</option>
+				  <option value="Chinois">Chinois</option>
+				  <option value="espagnol">Espagnol</option>
+				  <option value="italien">Italien</option>
+
+				</optgroup>
+				</select>  
+
+				<select id="sexe" name="field4">
+				<optgroup label="Oriantation sexuel">
+				  <option value="Heterosexuel">Heterosexuel</option>
+				  <option value="Homosexuel">Homosexuel</option>
+				  <option value="Bisexuel">Bisexuel</option>
+				</optgroup>
+				</select> 
+				
+			
+				</fieldset>
+				<input type="submit" value="Valider">
+				</form>
+		</div>
+		</div>
+			<div class="total-bloc">
+				<div class="bloc-ville">
+
+					<div class="img-ville">
+						<a href=""><img class="hote1" src="./Cookandmeet_files/hote1.jpg" alt=""></a>
+					</div>
+					<div class="info-hote">
+						<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef1.jpg" alt=""></a>
+						</div>
+						<div class="info-complet">
+							<a href=""><p class="info-diner"> Un diner gourmand</p></a>
+							<a href=""><h3 class="info-nom">Isabelle BERNARD</h3></a><br>
+							<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+						</div>
+					<p class="prix-hote">25€</p>
+				</div>
+				</div>
+
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote2.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+					<a href=""><img class="img-chef" src="./Cookandmeet_files/chef2.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner"> La mer s'invite à la table</p></a>
+					<a href=""><h3 class="info-nom">Marc BEAUCHET</h3></a><br>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">35€</p>
+				</div>
+				</div>
+				
+			</div>
+			</div>
+
+			<div class="total-bloc">
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote3.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef3.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner">Ma blanquette maison</p></a>
+					<a href=""><h3 class="info-nom">Paul FOULON</h3></a><br>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">35€</p>
+				</div>
+				</div>
+				
+			</div>
+
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote4.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef4.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner">Un diner bio et saint</p></a>
+					<a href=""><h3 class="info-nom">Marie COHEN</h3></a>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">30€</p>
+				</div>
+				</div>
+				
+			</div>
+			</div>
+
+			<div class="total-bloc">
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote5.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef5.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner"> Les produits du terroir</p></a>
+					<a href=""><h3 class="info-nom">Bertille BRETON</h3></a>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">40€</p>
+				</div>
+				</div>
+				
+			</div>
+
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote6.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef6.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner"> Raclette party</p></a>
+					<a href=""><h3 class="info-nom">Andy MORLEY</h3></a><br>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">25€</p>
+				</div>
+				</div>
+				
+			</div>
+			</div>
+
+			<div class="total-bloc">
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote7.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef7.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner"> Mélange de sucré salé</p></a>
+					<a href=""><h3 class="info-nom">Capucine TOURON</h3></a>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">25€</p>
+				</div>
+				</div>
+				
+			</div>
+
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote8.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef8.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner"> Barbecue d'interieur </p></a>
+					<a href=""><h3 class="info-nom">Gauthier LEONARD</h3></a>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">40€</p>
+				</div>
+				</div>
+				
+			</div>
+			</div>
+
+			<div class="total-bloc">
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote1.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef1.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+						<a href=""><p class="info-diner">Un diner gourmand</p></a>
+						<a href=""><h3 class="info-nom">Isabelle BERNARD</h3></a>
+						<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">45€</p>
+				</div>
+				</div>
+				
+			</div>
+
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote2.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+					<a href=""><img class="img-chef" src="./Cookandmeet_files/chef2.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner"> La mer s'invite à la table</p></a>
+					<a href=""><h3 class="info-nom">Marc BEAUCHET</h3></a><br>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">35€</p>
+				</div>
+				</div>
+				
+			</div>
+			</div>
+
+			<div class="total-bloc">
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote3.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef3.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner">Ma blanquette maison</p></a>
+					<a href=""><h3 class="info-nom">Paul FOULON</h3></a><br>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">30€</p>
+				</div>
+				</div>
+				
+			</div>
+
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote4.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef4.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner">Un diner bio et saint</p></a>
+					<a href=""><h3 class="info-nom">Marie COHEN</h3></a>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">25€</p>
+				</div>
+				</div>
+				
+			</div>
+			</div>
+
+			<div class="total-bloc">
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote5.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef5.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner"> Les produits du terroir</p></a>
+					<a href=""><h3 class="info-nom">Bertille BRETON</h3></a>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">20€</p>
+				</div>
+				</div>
+				
+			</div>
+
+			<div class="bloc-ville">
+				<div class="img-ville">
+					<a href=""><img class="hote1" src="./Cookandmeet_files/hote6.jpg" alt=""></a>
+				</div>
+				<div>
+					<div class="info-hote">
+					<div class="img-hote">
+						<a href=""><img class="img-chef" src="./Cookandmeet_files/chef6.jpg" alt=""></a>
+					</div>
+					<div class="info-complet">
+					<a href=""><p class="info-diner"> Raclette party</p></a>
+					<a href=""><h3 class="info-nom">Andy MORLEY</h3></a>
+					<a class="lien-diner" href=""><p class="info-ville">Marseille, France</p></a>
+					</div>
+					<p class="prix-hote">25€</p>
+				</div>
+				</div>
+				
+			</div>
+			</div>
+			</div>
+			<div class="footer-recherche">
+			<div id="footer"> <!--debut footer-->
+
+				    	<div id="foot">
+
+							<div id="espacecontact" class="box">
+
+								<h5 id="contacteznous">Contactez-nous</h5>
+
+									<p id="contact">28 Place de la Bourse<br> 75002 Paris</p>
+									<p id="contact2">01 46 34 11 16</p>
+
+									<div class="mesicones">
+
+										<a href="https://www.facebook.com/Cook-and-Meet-423413171199322/?fref=ts"><img class="mesreseauxsociaux" src="./Cookandmeet_files/facebook.png" alt=""></a>
+										<a href="https://plus.google.com/u/0/106781348582278403909"><img class="mesreseauxsociaux" src="./Cookandmeet_files/google.png" alt=""></a>
+										<a href="https://www.youtube.com/channel/UCiBe1xQXDvyh7ryunwkUruA"><img class="mesreseauxsociaux" src="./Cookandmeet_files/youtube.png" alt=""></a>
+									
+									</div>
+
+									<div class="mesicones-mobile">
+
+										<a href="https://www.facebook.com/Cook-and-Meet-423413171199322/?fref=ts"><img class="mesreseauxsociaux" src="./Cookandmeet_files/facebook-mobile.png" alt=""></a>
+										<a href="https://plus.google.com/u/0/106781348582278403909"><img class="mesreseauxsociaux" src="./Cookandmeet_files/google-mobile.png" alt=""></a>
+										<a href="https://www.youtube.com/channel/UCiBe1xQXDvyh7ryunwkUruA"><img class="mesreseauxsociaux" src="./Cookandmeet_files/youtube-mobile.png" alt=""></a>
+									
+									</div>
+
+								</div>
+
+
+							
+
+							<div id="espaceinfo" class="box">
+				
+								<h5>Plus d'infos</h5>
+
+									<ul>
+
+										<li><a href="./Cookandmeet_files/Cookandmeet.html">A propos</a></li>
+										<li><a href="./Cookandmeet_files/Cookandmeet.html">Nous découvrir</a></li>
+										<li><a href="file:///Users/Mathieu/Desktop/cookandmeet-v2/contact.html">Contact</a></li>
+										<li><a href="./Cookandmeet_files/Cookandmeet.html">FAQ</a></li>
+									</ul>
+								
+							</div>
+
+							<div id="espacecookandmeeteur" class="box">
+
+								<h5>Devenir un Cookandmeeteur</h5>
+
+									<ul id="col3">
+
+										<li><a href="file:///Users/Mathieu/Desktop/cookandmeet-v2/comment-marche.html">Comment ça marche ?</a></li>
+										<li><a href="file:///Users/Mathieu/Desktop/cookandmeet-v2/devenir-hote.html">Pourquoi devenir Hôte ?</a></li>
+										<li><a href="file:///Users/Mathieu/Desktop/cookandmeet-v2/inscription.html">S'inscrire</a></li>
+
+									</ul>
+
+								</div>
+
+							</div>
+
+							
+			</div> <!--fin footer-->
+			</div>
+		</div>
+	<script type="text/javascript" src="./Cookandmeet_files/jquery.js"></script>
+	<script type="text/javascript" src="./Cookandmeet_files/jquery-ui.js"></script>
+	<script type="text/javascript" src="./Cookandmeet_files/script.js"></script>
+
+
+
+
+</body></html>

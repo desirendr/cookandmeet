@@ -1,0 +1,3 @@
+.idea/*
+config/config.inc.php
+model/connexion.inc.php
